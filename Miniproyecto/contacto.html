@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link rel="icon" type="image/png" href="fotos/ball.jpg">
+	<title>Contacto</title>
+	<link rel="stylesheet" type="text/css" href="CSS/contacto.css">
+</head>
+
+<body>
+	 <h1 id="titulo"><a href="index.html">EL RINCON DE ALBERTO!</a></h1>
+
+        <div id="menu">
+            <ul class="nav">
+                <li><a href="index.html">INICIO</a></li>
+                <li><a href="https://github.com/albeorte96">PROYECTOS</a></li>
+                <li><a href="estudios.html">ESTUDIOS</a>
+                    <ul>
+                        <li><a href="estudios.html#primaria">Primaria</a></li>
+                        <li><a href="estudios.html#secundaria">ESO</a></li>
+                        <li><a href="estudios.html#bachillerato">Bachillerato</a></li>
+                        <li><a href="estudios.html#gradosup">Grado superior</a></li>
+                    </ul></li>
+                <li><a href="aficiones.html">AFICIONES</a></li>
+                <li><a href="contacto.html">CONTACTO</a></li>
+            </ul>
+        </div>
+	<p id="subtitulo" align="center"><strong>Complete el siguiente formulario</strong></p>
+    <form action="formulario.php" method="get">
+    	<table style="margin: 0 auto">
+			<tr>    
+			    <td colspan="2">
+			        <fieldset>
+			            <legend>Datos personales</legend>
+			            <table class="tabla2">
+			                <tr>
+			                    <td>
+			                        Nombre:
+			                    </td>
+			                    <td>
+			                        <input type="text" name="nombre" size="20" maxlength="20"required/>
+			                    </td>
+			                </tr>
+			                <tr>
+			                    <td>
+			                        Apellidos:
+			                    </td>
+			                    <td>
+			                        <input type="text" name="apellidos" size="20" maxlength="40" required/>
+			                    </td>
+			                </tr>
+			                <tr>
+			                    <td>
+			                        E-mail:
+			                    </td>
+			                    <td>
+			                        <input type="email" name="E-mail" size="20" maxlength="40"placeholder="@" required/>
+			                    </td>
+			                </tr>
+			            </table>
+			        </fieldset>
+			    </td>
+			    <td colspan="2">    
+			        <fieldset>
+			                <legend>Datos de conexión</legend>
+			            <table class="tabla3">
+			                <tr>
+			                    <td>
+			                        Username:
+			                    </td>
+			                    <td>
+			                        <input type="text" name="Username" size="20" maxlength="40" required/>
+			                    </td>
+			                </tr>
+			                <tr>
+			                    <td>
+			                        Contraseña:
+			                    </td>
+			                    <td>
+			                        <input type="password" name="Contraseña" size="20" maxlength="40" required/>
+			                    </td>
+			                </tr>
+			                <tr>
+			                    <td>
+			                        Código de seguridad:
+			                    </td>
+			                    <td>
+			                        <input type="password" name="Código deseguridad" size="20" maxlength="8" required/>
+			                    </td>
+			                </tr>
+			            </table>
+			        </fieldset>
+			    </td>
+			</tr>
+		</table>
+		<textarea name="texto" rows="4" cols="40">Deje su comentario</textarea>
+		<p align="center"><input type="submit" value="ENVIAR"/></p>
+		<p align="center"><input type="reset" value="LIMPIAR"/></p>
+
+	</form>
+	<br><br><br><br><br><br><br><br><br><br><br><br>
+</body>
+</html>

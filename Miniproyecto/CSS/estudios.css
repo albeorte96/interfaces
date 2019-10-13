@@ -1,0 +1,201 @@
+@font-face{font-family: mickye; src: url(fuentes/WickedMouseDemo.otf)}
+
+body {	
+	background: linear-gradient(#FFD157,white);
+}
+
+#titulo{
+	font-family: mickye;
+	margin:5px;
+	margin-bottom: 0px; 
+	text-align: center; 
+	line-height: 200px; 
+	padding: auto; 
+	background-image: linear-gradient(red, yellow); 
+	font-size: 3em; 
+	color: white;
+	text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000; /*Borde de las letras*/
+}
+
+#titulo a{
+	text-decoration: none;
+	color: white;
+}
+
+#menu{
+	margin-left: 0px;
+	padding-left: 2px;
+	margin-top: 2px;
+	text-align: left;
+	width: 100%;
+}
+
+ul{
+	list-style: none;
+}
+
+.nav > li{
+	float: left;
+}
+
+.nav li a{
+	background: linear-gradient(to right, #F98800, #EFE358);
+	color: #00B358;
+	text-decoration: none;
+	padding:20px 42px;
+	display: block;
+	font-family: mickye;
+	font-size: 14pt;
+	font-size: 113%;
+	border-radius: 10px 10px 10px 10px;
+	text-align: center;
+	width: 150px;
+}
+
+.nav li a:hover{
+	background-color: yellow;
+	color: black;
+}
+
+.nav li ul{
+	display:none;
+	position: absolute;
+	min-width: 150px;
+}
+
+.nav li:hover > ul{
+	display: block;
+}
+
+.nav li ul li{
+	position: relative;
+}
+
+.contenido {
+  background-image: linear-gradient(orange, #FFD157); 
+  width: 99.2%;
+  border: 3px solid #00B358;
+  padding: 2px;
+  font-family: alice, monospace;
+  font-size: 14pt;
+  color: black;
+  text-align: left;
+  /* para que la imagen no desborde con respecto a la caja */
+  display:inline-block;
+}
+
+.pprimaria{
+	padding-top: 30px;
+	padding-left: 50px;
+	float: left;
+	text-align: left;
+	width: 500px ;
+}
+
+.psecundaria{
+	padding-top: 20px;
+	padding-right: 50px;
+	float: right;
+	text-align: left;
+	width: 550px ;
+}
+
+.pbachillerato{
+	padding-top: 10px;
+	padding-left: 50px;
+	float: left;
+	text-align: left;
+	width: 500px ;
+}
+
+.pgradsup{
+	padding-top: 20px;
+	padding-right: 50px;
+	float: right;
+	text-align: left;
+	width: 550px ;
+}
+
+.contimgprimaria{
+	float: right; 
+	height: 370px;
+	width: 550px;
+	border: 3px solid #00008f;
+	margin-right: 50px;
+}
+
+.contimgeso{
+	float: left; 
+	height: 370px;
+	width: 480px;
+	border: 3px solid #00008f;
+	margin-left: 50px;
+	margin-top: 40px;
+}
+
+.contimgbach{
+	float: right; 
+	height: 370px;
+	width: 550px;
+	border: 3px solid #00008f;
+	margin-right: 50px;
+	margin-top: 40px;
+}
+
+.contimggs{
+	float: left; 
+	height: 320px;
+	width: 520px;
+	border: 3px solid #00008f;
+	margin-left: 30px;
+	margin-top: 55px;
+}
+
+img{
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.tit{		
+  text-align: left;
+  margin-top: 10px;
+  font-family: mickye;
+  font-size: 2em;
+  border: solid #00B358;
+  /* sin borde inferior para no solapar con contenido */
+  border-width: 3px 3px 0; 
+  padding: 2px;
+  color: white;
+  background-color: orange;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+  border-radius: 10px 10px 0px 0px;
+}
+
+#primaria {
+  margin-top: 110px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+#secundaria {
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+#bachillerato {
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+#gradosup {
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
